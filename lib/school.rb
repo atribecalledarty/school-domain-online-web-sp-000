@@ -22,5 +22,6 @@ class School
     @roster.each |grade, names|
       names.sort
     end
+    @roster.sort
   end
 end
